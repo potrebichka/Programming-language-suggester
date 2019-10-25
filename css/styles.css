@@ -22,6 +22,10 @@ body {
 
 .language {
     display: none;
+    text-align: center;
+    border: 1px solid white;
+    background-color: teal;
+    margin-top: 50px;
 }
 
 .forms input[type="radio"] {
@@ -55,4 +59,20 @@ body {
 
 input[type="radio"]:checked + label {
     background-color: green;
+}
+
+.result {
+    margin-bottom: 20px;
+}
+
+.language p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.language a {
+    color: DarkBlue;
+    font-size: 25px;
+    padding-bottom: 20px;
 }
