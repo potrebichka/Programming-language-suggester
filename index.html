@@ -1,13 +1,134 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Portfolio Landing Page</title>
+        <title>Progamming language suggester</title>
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/styles.css">
         <script src="js/jquery-3.4.1.js"></script>
-        <script src="js/bootstrap.js"></script>
+        <script src="js/scripts.js"></script>
     </head>
     <body>
-        
+        <div class="container">
+            <form id="form0" class="forms">
+                <h1 class="questions">Wy do you want to learn to code?</h1>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="inp0" value="1" checked>
+                        Be a professional developer
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="inp0" value="2">
+                        Run a startup
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="inp0" value="3">
+                        Build something fun
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="inp0" value="4">
+                        Have another skill
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Answer</button>
+            </form>
+
+            <form id="form1" class="forms">
+                <h1 class="questions">What sort of developer do you want to be?</h1>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="inp1" value="1" checked>
+                        Game
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="inp1" value="2">
+                        Web
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="inp1" value="3">
+                        Mobile
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="inp1" value="4">
+                        Desktop software
+                    </label>
+                </div>
+                <div class="radio">
+                        <label>
+                        <input type="radio" name="inp1" value="5">
+                        Data scientist
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Answer</button>
+            </form>
+
+            <form id="form1-1" class="forms">
+                <h1 class="questions">What do you want specialise in?</h1>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="inp1-1" value="1" checked>
+                        Mobile-games
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="inp1-1" value="2">
+                        PC/console-games
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Answer</button>
+            </form>
+
+            <form id="form1-1-1" class="forms">
+                <h1 class="questions">What types of mobile-games?</h1>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="inp1-1-1" value="1" checked>
+                        2D
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="inp1-1-1" value="2">
+                        3D
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Answer</button>
+            </form>
+
+            <form id="form1-1-1-1" class="forms">
+                <h1 class="questions">What do you care more about?</h1>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="inp1-1-1-1" value="1" checked>
+                        Community size / support
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="inp1-1-1-1" value="2">
+                        Performance
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Answer</button>
+            </form>
+            <div class="language" id="c-sharp">
+                <h1 class="result">Your language is C#</h1>
+            </div>
+            <div class="language" id="c-plus-plus">
+                    <h1 class="result">Your language is C++</h1>
+            </div>
+        </div>
     </body>
 </html>
