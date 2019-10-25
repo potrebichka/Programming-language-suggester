@@ -28,4 +28,4 @@ _HTML, CSS, jQuery, Bootstrap, JavaScript_
 
 ### License
 
-*Data for quiz was taken from http://www.bestprogramminglanguagefor.me/ webpage for practising goals only.*
+*Data for quiz was taken from http://www.bestprogramminglanguagefor.me/ webpage for practising only.*
