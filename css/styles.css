@@ -76,3 +76,10 @@ input[type="radio"]:checked + label {
     font-size: 25px;
     padding-bottom: 20px;
 }
+
+.code {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    width: 75%;
+}
