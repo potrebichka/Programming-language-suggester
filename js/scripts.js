@@ -71,7 +71,8 @@ $(function() {
             $("#c-sharp").show();
             $("#repeatQuiz").show();
         } else {
-            $("#c-plus-plus").show()
+            $("#c-plus-plus").show();
+            $("#repeatQuiz").show();
         }
     });
 
@@ -82,8 +83,10 @@ $(function() {
         var answer = $("input:radio[name=inp1-1-1-2]:checked").val();
         if (answer === "1") {
             $("#c-sharp").show();
+            $("#repeatQuiz").show();
         } else {
-            $("#c-plus-plus").show()
+            $("#c-plus-plus").show();
+            $("#repeatQuiz").show();
         }
     });
 
@@ -94,8 +97,10 @@ $(function() {
         var answer = $("input:radio[name=inp1-1-2]:checked").val();
         if (answer === "1") {
             $("#c-sharp").show();
+            $("#repeatQuiz").show();
         } else if (answer === "2") {
-            $("#c-plus-plus").show()
+            $("#c-plus-plus").show();
+            $("#repeatQuiz").show();
         } else {
             $("#form1-1-1-2").show()
         }
@@ -108,6 +113,7 @@ $(function() {
         var answer = $("input:radio[name=inp1-2]:checked").val();
         if (answer === "1") {
             $("#html-js").show();
+            $("#repeatQuiz").show();
         } else {
             $("#form1-2-2").show()
         }
@@ -120,6 +126,7 @@ $(function() {
         var answer = $("input:radio[name=inp1-2-2]:checked").val();
         if (answer === "1") {
             $("#php").show();
+            $("#repeatQuiz").show();
         } else if (answer === "2") {
             $("#form1-2-2-2").show()
         } else if (answer === "3") {
@@ -136,10 +143,13 @@ $(function() {
         var answer = $("input:radio[name=inp1-2-2-2]:checked").val();
         if (answer === "1") {
             $("#python").show();
+            $("#repeatQuiz").show();
         } else if (answer === "2") {
-            $("#ruby").show()
+            $("#ruby").show();
+            $("#repeatQuiz").show();
         } else {
-            $("#js").show()
+            $("#js").show();
+            $("#repeatQuiz").show();
         }
     });
 
@@ -150,6 +160,7 @@ $(function() {
         var answer = $("input:radio[name=inp1-2-2-3]:checked").val();
         if (answer === "1") {
             $("#java").show();
+            $("#repeatQuiz").show();
         } else {
             $("#form1-2-2-3-2").show()
         }
@@ -162,8 +173,10 @@ $(function() {
         var answer = $("input:radio[name=inp1-2-2-3-2]:checked").val();
         if (answer === "1") {
             $("#java").show();
+            $("#repeatQuiz").show();
         } else {
-            $("#c-sharp").show()
+            $("#c-sharp").show();
+            $("#repeatQuiz").show();
         }
     });
 
@@ -174,10 +187,13 @@ $(function() {
         var answer = $("input:radio[name=inp1-2-2-4]:checked").val();
         if (answer === "1") {
             $("#python").show();
+            $("#repeatQuiz").show();
         } else if (answer === "2") {
-            $("#ruby").show()
+            $("#ruby").show();
+            $("#repeatQuiz").show();
         } else {
-            $("#java").show()
+            $("#java").show();
+            $("#repeatQuiz").show();
         }
     });
 
@@ -188,10 +204,13 @@ $(function() {
         var answer = $("input:radio[name=inp1-3]:checked").val();
         if (answer === "1") {
             $("#swift").show();
+            $("#repeatQuiz").show();
         } else if (answer === "2") {
-            $("#java").show()
+            $("#java").show();
+            $("#repeatQuiz").show();
         } else {
-            $("#c-sharp").show()
+            $("#c-sharp").show();
+            $("#repeatQuiz").show();
         }
     });
 
@@ -202,10 +221,13 @@ $(function() {
         var answer = $("input:radio[name=inp1-4]:checked").val();
         if (answer === "1") {
             $("#c-sharp").show();
+            $("#repeatQuiz").show();
         } else if (answer === "2") {
-            $("#swift").show()
+            $("#swift").show();
+            $("#repeatQuiz").show();
         } else {
-            $("#java").show()
+            $("#java").show();
+            $("#repeatQuiz").show();
         }
     });
 
@@ -216,8 +238,10 @@ $(function() {
         var answer = $("input:radio[name=inp1-5]:checked").val();
         if (answer === "1") {
             $("#r").show();
+            $("#repeatQuiz").show();
         } else {
-            $("#python").show()
+            $("#python").show();
+            $("#repeatQuiz").show();
         }
     });
 
@@ -242,8 +266,10 @@ $(function() {
         var answer = $("input:radio[name=inp2-1]:checked").val();
         if (answer === "1") {
             $("#php").show();
+            $("#repeatQuiz").show();
         } else if (answer === "2") {
             $("#java").show();
+            $("#repeatQuiz").show();
         } else {
             $("#form2-1-3").show()
         }
@@ -256,10 +282,13 @@ $(function() {
         var answer = $("input:radio[name=inp2-1-3]:checked").val();
         if (answer === "1") {
             $("#js").show();
+            $("#repeatQuiz").show();
         } else if (answer === "2") {
             $("#ruby").show();
+            $("#repeatQuiz").show();
         } else {
-            $("#python").show()
+            $("#python").show();
+            $("#repeatQuiz").show();
         }
     });
 
@@ -270,6 +299,7 @@ $(function() {
         var answer = $("input:radio[name=inp2-3]:checked").val();
         if (answer === "1" || answer === "3") {
             $("#c-sharp").show();
+            $("#repeatQuiz").show();
         } else if (answer === "2") {
             $("#form2-3-2").show();
         } else {
@@ -284,8 +314,10 @@ $(function() {
         var answer = $("input:radio[name=inp2-3-2]:checked").val();
         if (answer === "1") {
             $("#c-plus-plus").show();
+            $("#repeatQuiz").show();
         } else {
-            $("#c-sharp").show()
+            $("#c-sharp").show();
+            $("#repeatQuiz").show();
         }
     });
 
@@ -296,8 +328,10 @@ $(function() {
         var answer = $("input:radio[name=inp2-3-4]:checked").val();
         if (answer === "1" || answer === "3") {
             $("#c-plus-plus").show();
+            $("#repeatQuiz").show();
         } else {
-            $("#c-sharp").show()
+            $("#c-sharp").show();
+            $("#repeatQuiz").show();
         }
     });
 
@@ -316,6 +350,7 @@ $(function() {
             $("#form3-4").show();
         } else {
             $("#python").show();
+            $("#repeatQuiz").show();
         }
     });
 
@@ -326,8 +361,10 @@ $(function() {
         var answer = $("input:radio[name=inp3-2]:checked").val();
         if (answer === "1" || answer === "2") {
             $("#html-js").show();
+            $("#repeatQuiz").show();
         } else {
-            $("#form3-2-3").show()
+            $("#form3-2-3").show();
+            $("#repeatQuiz").show();
         }
     });
 
@@ -338,10 +375,13 @@ $(function() {
         var answer = $("input:radio[name=inp3-2-3]:checked").val();
         if (answer === "1") {
             $("#python").show();
+            $("#repeatQuiz").show();
         } else if(answer === "2") {
             $("#ruby").show();
+            $("#repeatQuiz").show();
         } else {
-            $("#php").show()
+            $("#php").show();
+            $("#repeatQuiz").show();
         }
     });
 
@@ -352,6 +392,7 @@ $(function() {
         var answer = $("input:radio[name=inp3-3]:checked").val();
         if (answer === "1" || answer === "3") {
             $("#html").show();
+            $("#repeatQuiz").show();
         } else {
             $("#form3-3-2").show()
         }
@@ -364,8 +405,10 @@ $(function() {
         var answer = $("input:radio[name=inp3-3-2]:checked").val();
         if (answer === "1") {
             $("#python").show();
+            $("#repeatQuiz").show();
         } else {
-            $("#c-sharp").show()
+            $("#c-sharp").show();
+            $("#repeatQuiz").show();
         }
     });
 
@@ -376,6 +419,7 @@ $(function() {
         var answer = $("input:radio[name=inp3-4]:checked").val();
         if (answer === "1") {
             $("#js").show();
+            $("#repeatQuiz").show();
         } else {
             $("#form3-4-2").show()
         }
@@ -388,8 +432,10 @@ $(function() {
         var answer = $("input:radio[name=inp3-4-2]:checked").val();
         if (answer === "1") {
             $("#python").show();
+            $("#repeatQuiz").show();
         } else {
             $("#ruby").show()
+            $("#repeatQuiz").show();
         }
     });
 
@@ -406,6 +452,7 @@ $(function() {
             $("#form1-5").show();
         } else {
             $("#html").show();
+            $("#repeatQuiz").show();
         }
     });
 
@@ -416,6 +463,7 @@ $(function() {
         var answer = $("input:radio[name=inp4-2]:checked").val();
         if (answer === "1") {
             $("#html").show();
+            $("#repeatQuiz").show();
         } else {
             $("#form4-2-2").show()
         }
@@ -428,10 +476,12 @@ $(function() {
         var answer = $("input:radio[name=inp4-2-2]:checked").val();
         if (answer === "1") {
             $("#php").show();
+            $("#repeatQuiz").show();
         } else if (answer === "2") {
             $("#form1-2-2-2").show()
         } else {
-            $("#java").show()
+            $("#java").show();
+            $("#repeatQuiz").show();
         }
     });
 
@@ -590,4 +640,11 @@ $(function() {
         $("#form4-2-2").slideUp();
         $("#form4-2").slideDown();
     });
+
+    //button to repeat quiz
+    $("#repeatQuiz").click(function() {
+        $("#repeatQuiz").fadeOut();
+        $(".language").fadeOut();
+        $("#form0").fadeIn();
+    })
 });
