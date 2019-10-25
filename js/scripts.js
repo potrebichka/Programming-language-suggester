@@ -69,6 +69,7 @@ $(function() {
         var answer = $("input:radio[name=inp1-1-1-1]:checked").val();
         if (answer === "1") {
             $("#c-sharp").show();
+            $("#repeatQuiz").show();
         } else {
             $("#c-plus-plus").show()
         }
@@ -432,5 +433,161 @@ $(function() {
         } else {
             $("#java").show()
         }
+    });
+
+    //back buttons
+    $("#back1").click(function(){
+        $("#form1").slideUp();
+        $("#form0").slideDown();
+    });
+
+    $("#back1-1").click(function(){
+        $("#form1-1").slideUp();
+        $("#form1").slideDown();
+    });
+
+    $("#back1-1-1").click(function(){
+        $("#form1-1-1").slideUp();
+        $("#form1-1").slideDown();
+    });
+
+    $("#back1-1-1-1").click(function(){
+        $("#form1-1-1-1").slideUp();
+        $("#form1-1-1").slideDown();
+    });
+
+    $("#back1-1-1-2").click(function(){
+        $("#form1-1-1-2").slideUp();
+        $("#form1-1-1").slideDown();
+    });
+
+    $("#back1-1-2").click(function(){
+        $("#form1-1-2").slideUp();
+        $("#form1-1").slideDown();
+    });
+
+    $("#back1-2").click(function(){
+        $("#form1-2").slideUp();
+        $("#form1").slideDown();
+    });
+
+    $("#back1-2-2").click(function(){
+        $("#form1-2-2").slideUp();
+        $("#form1-2").slideDown();
+    });
+
+    $("#back1-2-2-2").click(function(){
+        $("#form1-2-2-2").slideUp();
+        $("#form1-2-2").slideDown();
+    });
+
+    $("#back1-2-2-3").click(function(){
+        $("#form1-2-2-3").slideUp();
+        $("#form1-2-2").slideDown();
+    });
+
+    $("#back1-2-2-3-2").click(function(){
+        $("#form1-2-2-3-2").slideUp();
+        $("#form1-2-2-3").slideDown();
+    });
+
+    $("#back1-2-2-4").click(function(){
+        $("#form1-2-2-4").slideUp();
+        $("#form1-2-2").slideDown();
+    });
+
+    $("#back1-3").click(function(){
+        $("#form1-3").slideUp();
+        $("#form1").slideDown();
+    });
+
+    $("#back1-4").click(function(){
+        $("#form1-4").slideUp();
+        $("#form1").slideDown();
+    });
+
+    $("#back1-5").click(function(){
+        $("#form1-5").slideUp();
+        $("#form1").slideDown();
+    });
+
+    $("#back2").click(function(){
+        $("#form2").slideUp();
+        $("#form0").slideDown();
+    });
+
+    $("#back2-1").click(function(){
+        $("#form2-1").slideUp();
+        $("#form2").slideDown();
+    });
+
+    $("#back2-1-3").click(function(){
+        $("#form2-1-3").slideUp();
+        $("#form2-1").slideDown();
+    });
+
+    $("#back2-3").click(function(){
+        $("#form2-3").slideUp();
+        $("#form2").slideDown();
+    });
+
+    $("#back2-3-2").click(function(){
+        $("#form2-3-2").slideUp();
+        $("#form2-3").slideDown();
+    });
+
+    $("#back2-3-4").click(function(){
+        $("#form2-3-4").slideUp();
+        $("#form2-3").slideDown();
+    });
+
+    $("#back3").click(function(){
+        $("#form3").slideUp();
+        $("#form0").slideDown();
+    });
+
+    $("#back3-2").click(function(){
+        $("#form3-2").slideUp();
+        $("#form3").slideDown();
+    });
+
+    $("#back3-2-3").click(function(){
+        $("#form3-2-3").slideUp();
+        $("#form3-2").slideDown();
+    });
+
+    $("#back3-3").click(function(){
+        $("#form3-3").slideUp();
+        $("#form3").slideDown();
+    });
+
+    $("#back3-3-2").click(function(){
+        $("#form3-3-2").slideUp();
+        $("#form3-3").slideDown();
+    });
+
+    $("#back3-4").click(function(){
+        $("#form3-4").slideUp();
+        $("#form3").slideDown();
+    });
+
+    $("#back3-4-2").click(function(){
+        $("#form3-4-2").slideUp();
+        $("#form3-4").slideDown();
+    });
+
+    $("#back4").click(function(){
+        $("#form4").slideUp();
+        $("#form0").slideDown();
+    });
+
+    $("#back4-2").click(function(){
+        $("#form4-2").slideUp();
+        $("#form4").slideDown();
+    });
+
+    $("#back4-2-2").click(function(){
+        $("#form4-2-2").slideUp();
+        $("#form4-2").slideDown();
     });
 });
