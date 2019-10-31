@@ -1,4 +1,5 @@
 $(function() {
+    var idPreviousForm;
 
     $("#form0").submit(function(event) {
         event.preventDefault();
@@ -28,10 +29,12 @@ $(function() {
         } else if (answer === "2") {
             $("#form1-2").show();
         } else if (answer === "3") {
+            idPreviousForm = "#form1";
             $("#form1-3").show();
         } else if (answer === "4") {
             $("#form1-4").show();
         } else {
+            idPreviousForm = "#form1";
             $("#form1-5").show()
         }
     });
@@ -128,6 +131,7 @@ $(function() {
             $("#php").show();
             $("#repeatQuiz").show();
         } else if (answer === "2") {
+            idPreviousForm = "#form1-2-2";
             $("#form1-2-2-2").show()
         } else if (answer === "3") {
             $("#form1-2-2-3").show()
@@ -253,6 +257,7 @@ $(function() {
         if (answer === "1") {
             $("#form2-1").show();
         } else if (answer === "2") {
+            idPreviousForm = "#form2";
             $("#form1-3").show();
         } else {
             $("#form2-3").show()
@@ -341,6 +346,7 @@ $(function() {
         $(".language").hide();
         var answer = $("input:radio[name=inp3]:checked").val();
         if (answer === "1") {
+            idPreviousForm = "#form3";
             $("#form1-3").show();
         } else if (answer === "2") {
             $("#form3-2").show();
@@ -445,10 +451,12 @@ $(function() {
         $(".language").hide();
         var answer = $("input:radio[name=inp4]:checked").val();
         if (answer === "1") {
+            idPreviousForm = "#form4";
             $("#form1-3").show();
         } else if (answer === "2") {
             $("#form4-2").show();
         } else if (answer === "3") {
+            idPreviousForm = "#form4";
             $("#form1-5").show();
         } else {
             $("#html").show();
@@ -478,6 +486,7 @@ $(function() {
             $("#php").show();
             $("#repeatQuiz").show();
         } else if (answer === "2") {
+            idPreviousForm = "#form4-2-2";
             $("#form1-2-2-2").show()
         } else {
             $("#java").show();
@@ -528,7 +537,7 @@ $(function() {
 
     $("#back1-2-2-2").click(function(){
         $("#form1-2-2-2").slideUp();
-        $("#form1-2-2").slideDown();
+        $(idPreviousForm).slideDown();
     });
 
     $("#back1-2-2-3").click(function(){
@@ -548,7 +557,7 @@ $(function() {
 
     $("#back1-3").click(function(){
         $("#form1-3").slideUp();
-        $("#form1").slideDown();
+        $(idPreviousForm).slideDown();
     });
 
     $("#back1-4").click(function(){
@@ -558,7 +567,7 @@ $(function() {
 
     $("#back1-5").click(function(){
         $("#form1-5").slideUp();
-        $("#form1").slideDown();
+        $(idPreviousForm).slideDown();
     });
 
     $("#back2").click(function(){
