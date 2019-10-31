@@ -16,7 +16,7 @@ _{What programming language should you learn this year? Take quiz to find out wh
 
 ## Known Bugs
 
-_Back button sometimes return to the wrong form. Will be solved later._
+_//**UPDATE 10/30/2019/ - Solved** // Back button sometimes return to the wrong form._
 
 ## Support and contact details
 
